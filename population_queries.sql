@@ -20,7 +20,7 @@ SELECT DISTINCT country FROM population_years
 WHERE year = 2010
 AND population > 100;
 
--- 7. Países que conteñen no nome a palbara "islas":
+-- 7. Países que conteñen no nome a palabra "islas":
 
 SELECT DISTINCT country FROM population_years
 WHERE country like "%islands%";
